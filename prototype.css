@@ -1,0 +1,160 @@
+.body_container
+{
+    display:flex;
+    flex-direction: row;
+}
+
+.login_container
+{
+    display: flex;
+    flex-direction: column;
+    width: 70%;     
+}
+
+.info_container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+@media screen and (max-width: 500px)
+{
+    .body_container{    flex-direction: column; }
+    .login_container{   width:100%; }
+    .info_container{    width: 100%; }
+}
+.faq
+{
+    display: flex;
+    flex-direction: column;
+}
+#faq_h4
+{
+    align-self: center;
+}
+
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.whats_new
+{
+    display: flex;
+    flex-direction: column;
+}
+#whats_new_h4
+{
+    align-self: center;
+}
+.credentials
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.top_bar
+{
+    display: flex;
+    flex-direction: row;
+}
+#menu_bar
+{
+    margin-top: 16px;
+    margin-right: 12px;
+    width: 35px;
+    height: 35px;
+}
+#tbar_title
+{
+    font: helvetica;
+    font-style: normal;
+    font-size: 20px;
+
+}
+#personal
+{
+    margin-top:16px;
+    margin-left:1200px;
+    width:35px;
+    height:35px;
+}
+ #pickup
+{
+    margin-top: 1px;
+    display: flex;
+    flex-direction: left;
+}
+#dropoff
+{
+    display: flex;
+    flex-direction: left; 
+}
+#payment
+{
+    margin-top: -54px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: right;
+}
+
+#eta
+{
+    margin-left: 100px;
+
+    display: flex;
+    flex-direction: right;
+}
+.credentials
+{
+    display: flex;
+    align-items: center;
+}
+.pref_container
+{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+}
+.pref_col
+{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.profile_col
+{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.profile_form
+{
+    display: flex;
+    flex-direction: column;
+}
+.main_container
+{
+    display:flex;
+    flex-direction: column;
+}
+.fa-bars
+{
+    
+}
+
+.fa-user
+{
+
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link href='prototype.css' rel='stylesheet' />
+    <!-- fontawesome.com gives us icons -->
+    <script src="https://kit.fontawesome.com/5b43b0fe82.js" crossorigin="anonymous"></script>
+ 
+    <title>STA Paratransit Prototype (Rides)</title>
+
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="top_bar">
+            <i class="fas fa-bars fa-2x"></i>
+            <select id="menu_bar">
+                <option value="open">=</option>
+                <option value="ride">Ride</option>
+                <option value="preferences">Preferences</option>
+            </select>
+            
+            <h1 id="tbar_title">STA Paratransit</h1>
+            <i class="fas fa-user fa-2x"></i>
+            <select id="personal">
+                <option value="popen">Man</option>
+                <option value="profile">Profile</option>
+                <option value="logout">Log Out</option>
+            </select>
+        </div>
+        <div class="rides_container">
+            <h1>Currently Scheduled Rides</h1>
+            <div class="home_container">
+                <div>
+                    <p>#1</p><br>
+                    <p id="pickup">Pickup: </p>
+                    <p id="dropoff">Dropoff: </p>
+                </div>
+                <div>
+                    <p id="payment">Payment: </p>
+                    <p id="eta">ETA: </p>
+                </div>
+                <div>
+                    <p>#2</p><br>
+                    <p id="pickup">Pickup: </p>
+                    <p id="dropoff">Dropoff: </p>
+                </div>
+                <div>
+                    <p id="payment">Payment: </p>
+                    <p id="eta">ETA: </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
