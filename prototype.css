@@ -92,6 +92,35 @@
     font-size: 20px;
     
 }
+#navbar
+{
+    margin-top: 0px;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+    display: flex;
+    background-color:rgb(89, 163, 224);
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#logout
+{
+    display: flex;
+    justify-content: flex-end;
+}
+a
+{
+    width: 100%;
+    display: block;
+    padding: 8px;
+    color: white;
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+}
+
 #personal
 {
     margin-top:16px;
@@ -112,7 +141,7 @@
 }
 #payment
 {
-    margin-top: -54px;
+    margin-top: -70px;
     margin-left: 100px;
     display: flex;
     flex-direction: right;
