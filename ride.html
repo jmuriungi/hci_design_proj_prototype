@@ -11,15 +11,20 @@
 </head>
 
 <body>
-    <nav>
-        <ul id="navbar">
-            
-            <li><a href="preferences.html"text="preferences"><i class="fas fa-user fa-2x"></i></a></li>
-            <li><a href="ride.html"text="ride"><i class="fas fa-shuttle-van fa-2x"></i></a></li>
-            <li><a href="stahome.html"text="home"><i class="fas fa-home fa-2x"></i></a></li>
-            <li><a href="index.html"text="log out"id="logout">Log Out</a></li>
-        </ul>
-    </nav>
+    <div class="main-container">
+        <nav>
+            <ul id="navbar">
+                
+                <div class="menu">
+                    <li><a href="stahome.html"text="home"><i class="fas fa-home fa-2x"></i></a></li>
+                    <li><a href="ride.html"text="ride"><i class="fas fa-shuttle-van fa-2x"></i></a></li>
+                    <li><a href="preferences.html"text="preferences"><i class="fas fa-user fa-2x"></i></a></li>
+                </div>
+                <div class="logout">
+                    <li><a href="index.html"text="log out"id="logout">Log Out</a></li>
+                </div>
+            </ul>
+        </nav>
         <div class="ride-container">
             <h1>Schedule Ride</h1>
             <div class="ride-form-container">
@@ -49,14 +54,44 @@
             <h1>Pay</h1>
             <div class="pay-form-container">
                 <form class="pay-form">
-                    <p><pre>Ride No.         11223344</pre></p>
-                    <label class="form-element"for="cholder_name">Name:</label>
-                    <input class="form-element"type="text" id="cholder_name_tf" name="cholder_name"></input>
-                    <label class="form-element"for="card_no">Name:</label>
-                    <input class="form-element"type="text" id="card_no_tf" name="card_no"></input>
+                    <div class="row form">
+                        <p>Ride No.</p><p class="form-element1">11223344</p>
+                    </div>
+                    <div class="row">
+                        <label class="form-element"for="cholder_name">Name:</label>
+                        <input class="form-element1"type="text" id="cholder_name_tf" name="cholder_name"></input>
+                    </div>
+                    <div class="row">
+                        <label class="form-element"for="card_no">Card number:</label>
+                        <input class="form-element1"type="text" id="card_no_tf" name="card_no"></input>
+                    </div>
+                    <div class="row">
+                        <label class="form-element"for="ccv">CCV:</label>
+                        <input class="form-element1"type="text" id="ccv_tf" name="ccv"></input>
+                    </div>
+                    <div class="row">
+                        <label class="form-element"for="zip">Zip:</label>
+                        <input class="form-element1"type="text" id="zip_tf" name="zip"></input>
+                    </div>
+                    <div class="row">
+                        <label class="form-element"for="Address">Address:</label>
+                        <input class="form-element1"type="text" id="address_tf" name="address"></input>
+                    </div>
+                    <div class="row">
+                        <label class="form-element"for="phone">Phone:</label>
+                        <input class="form-element1"type="text" id="phone_tf" name="phone"></input>
+                    </div>
+                    <div class="row">
+                        <label class="form-element"for="email">Email:</label>
+                        <input class="form-element1"type="text" id="email_tf" name="email"></input>
+                    </div>
+                    <div class="ride">
+                        <button class="ride-btn">Use Cash</button>
+                        <button class="ride-btn">Finish</button>
+                    </div>
                     <div class="inner-pay-form">
                         <div>
-    
+                            
                         </div>
                         <div>
     

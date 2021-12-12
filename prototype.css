@@ -10,10 +10,36 @@
     display:flex;
     flex-direction: row;
 }
+.menu{
+    display:flex;
+    flex-direction: row;
+    width: 30%;
+}
+.ride
+{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: space-between;
+}
+.ride-btn
+{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+}
+.logout
+{   
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 68%;
+}
 .row
 {
     display:flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
 }
 .login_container
 {
@@ -209,6 +235,11 @@ a
 .form-element
 {
     margin-bottom: 1ch;
+}
+.form-element1
+{
+    
+    margin-left: 6ch;
 }
 .main_container
 {
