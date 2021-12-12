@@ -11,6 +11,14 @@
 </head>
 
 <body>
+    <div class="home-bar">
+        <div id="bar-icon" class="home-bar-element">
+            <i class="fas fa-bars fa-2x"></i>
+        </div>
+        <div id="profile-icon" class="home-bar-element">
+            <i class="fas fa-user fa-2x"></i>
+        </div>
+    </div>
     <div class="pref_container">
         <div class="pref_col">
             <h1>Preferences</h1>
@@ -18,21 +26,27 @@
             <p>Notifications:   Y/N</p>
         </div>
         <div class="profile_col">
+            <h1>Profile</h1>
             <form class="profile_form">
-                <label for="profile_name">Name:</label>
-                <input type="text" id="profile_name_tf" name="profile_name"></input>
-                <label for="address">Address:</label>
-                <input type="text" id="address_tf" name="address"></input>
-                <label for="zip">Zip:</label>
-                <input type="text" id="zip_tf" name="zip"></input>
-                <label for="card_no">Card number:</label>
-                <input type="text" id="card_no_tf" name="card_no"></input>
-                <label for="phone">Phone:</label>
-                <input type="text" id="profile_name_tf" name="phone"></input>
-                <label for="email">Email:</label>
-                <input type="text" id="email_tf" name="email"></input>
-                <label for="username">Username:</label>
-                <input type="text" id="username_tf" name="username"></input>
+                <label class="form-element"for="profile_name">Name:</label>
+                <input class="form-element"type="text" id="profile_name_tf" name="profile_name"></input>
+                <label class="form-element"for="address">Address:</label>
+                <input class="form-element"type="text" id="address_tf" name="address"></input>
+                <label class="form-element"for="zip">Zip:</label>
+                <input class="form-element"type="text" id="zip_tf" name="zip"></input>
+                <label class="form-element"for="card_no">Card number:</label>
+                <input class="form-element"type="text" id="card_no_tf" name="card_no"></input>
+                <label class="form-element"for="phone">Phone:</label>
+                <input class="form-element"type="text" id="profile_name_tf" name="phone"></input>
+                <label class="form-element"for="email">Email:</label>
+                <input class="form-element"type="text" id="email_tf" name="email"></input>
+                <label class="form-element"for="username">Username:</label>
+                <input class="form-element"type="text" id="username_tf" name="username"></input>
+                <div class="pw-container profile-form-element">
+                    <label for="password">Password:</label>
+                    <a href="#">Change Password</a>
+                </div>
+                <button>Save</button>
             </form>
         </div>
     </div>

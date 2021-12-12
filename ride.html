@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Ride</title>
+
+    <link href='prototype.css' rel='stylesheet' />
+
+    <script src="https://kit.fontawesome.com/5b43b0fe82.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="home-bar">
+            <div id="bar-icon" class="home-bar-element">
+                <i class="fas fa-bars fa-2x"></i>
+            </div>
+            <div class="home-bar-element">
+                <i class="fas fa-shuttle-van fa-2x"></i>
+            </div>
+            <div id="profile-icon" class="home-bar-element">
+                <i class="fas fa-user fa-2x"></i>
+            </div>
+        </div>
+        <div class="ride-container">
+            <h1>Schedule Ride</h1>
+            <div class="ride-form-container">
+                <form id="ride-form">
+                    <label class="form-element"for="origin">Origin:</label>
+                    <input class="form-element"type="text" id="origin_tf" name="origin"></input>
+                    <label class="form-element"for="dest">Destination:</label>
+                    <input class="form-element"type="text" id="dest_tf" name="destination"></input>
+                    <label class="form-element"for="pickup">Pickup time:</label>
+                    <input class="form-element"type="text" id="pickup_tf" name="pickup_time"></input>
+                    <label class="form-element"for="dropoff">Dropoff time:</label>
+                    <input class="form-element"type="text" id="dropoff_tf" name="dropoff_time"></input>
+                    <label class="form-element"for="accommodations">Accommodations:</label>
+                    <input class="form-element"type="text" id="accom_tf" name="accommodations"></input>
+                </form>
+            </div>
+            <h1>Pay</h1>
+            <div class="pay-form-container">
+                <form class="pay-form">
+                    <p><pre>Ride No.         11223344</pre></p>
+                    <label class="form-element"for="cholder_name">Name:</label>
+                    <input class="form-element"type="text" id="cholder_name_tf" name="cholder_name"></input>
+                    <label class="form-element"for="card_no">Name:</label>
+                    <input class="form-element"type="text" id="card_no_tf" name="card_no"></input>
+                    <div class="inner-pay-form">
+                        <div>
+    
+                        </div>
+                        <div>
+    
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>
