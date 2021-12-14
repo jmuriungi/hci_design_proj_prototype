@@ -2,7 +2,7 @@
 {
     display: flex;
     flex-direction: column;
-    width: 95%;
+    width: 100%;
     justify-content: center;
 }
 .body_container
@@ -19,7 +19,7 @@
 {
     display: flex;
     flex-direction: row;
-    width: 20%;
+    width: 35%;
     justify-content: space-between;
 }
 .ride-btn
@@ -32,20 +32,35 @@
 {   
     display: inline-flex;
     justify-content: flex-end;
-    width: 68%;
+    width: 70%;
+    margin-right: 1ch;
 }
 .row
 {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 20%;
+    width: 35%;
 }
+
 .login_container
 {
     display: flex;
     flex-direction: column;
     width: 70%;     
+}
+
+#login-btn{
+    width: 25ch;
+    height: 5ch;
+    
+    
+}
+.btn
+{
+    font-size: 2ch;
+    background-color: chartreuse;
+    border-radius: 1rem ;
 }
 .ride-container
 {
@@ -103,6 +118,12 @@
     flex-direction: column;
 }
 
+.col
+{
+    display: flex;
+    flex-direction: column;
+}
+
 .top_bar
 {
     display: flex;
@@ -134,20 +155,17 @@
     flex-direction: row;
     width: 100%;
     margin-bottom: 10px;
+    justify-content: space-between;
 }
-#logout
-{
-    display: flex;
-    justify-content: flex-end;
-}
+
 a
 {
     width: 100%;
     display: block;
     padding: 8px;
-    color: white;
+    color: chartreuse;
     justify-content: space-between;
-    text-align: center;
+    text-align: start;
     text-decoration: none;
 }
 
@@ -158,32 +176,7 @@ a
     width:35px;
     height:35px;
 }
-#pickup
-{
-    margin-top: 1px;
-    display: flex;
-    flex-direction: left;
-}
-#dropoff
-{
-    display: flex;
-    flex-direction: left; 
-}
-#payment
-{
-    margin-top: -70px;
-    margin-left: 100px;
-    display: flex;
-    flex-direction: right;
-}
 
-#eta
-{
-    margin-left: 100px;
-    
-    display: flex;
-    flex-direction: right;
-}
 .credentials
 {
     display: flex;
@@ -196,16 +189,7 @@ a
     width: 100%;
     justify-content: space-between;
 }
-/* #bar-icon
-{
-    display: flex;
-    justify-content: flex-start;
-}
-#profile-icon
-{
-    display: flex;
-    justify-content: flex-end;
-} */
+
 .pref_container
 {
     display: flex;
@@ -224,6 +208,12 @@ a
     display: flex;
     flex-direction: column;
     width: 45%;
+}
+
+.line-break
+{
+    display: flex;
+    flex-direction: row;
 }
 
 .profile_form
@@ -246,16 +236,6 @@ a
     display:flex;
     flex-direction: column;
 }
-.fa-bars
-{
-    
-}
-
-.fa-user
-{
-    
-}
-
 
 @media screen and (max-width: 500px)
 {
@@ -263,4 +243,15 @@ a
     .login_container{   width:100%; }
     .info_container{    width: 100%; }
     .pref_container{    flex-direction: column; }
+    .row{               width: 70%; }
+    .ride{              width: 70%; }
+    .line-break{
+        flex-direction: column;
+        width: 100%;
+    }
+    #navbar{
+        position: absolute;
+        top: 90%;
+        width: 95%;
+    }
 }
