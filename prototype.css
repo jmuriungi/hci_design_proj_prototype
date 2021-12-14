@@ -236,6 +236,17 @@ a
     display:flex;
     flex-direction: column;
 }
+#pw-link
+{
+    color: black;
+    padding-left: 0px;
+    text-decoration-line: underline;
+}
+.pw-container
+{
+    width: 50%;
+    align-items: center;
+}
 
 @media screen and (max-width: 500px)
 {
@@ -245,6 +256,7 @@ a
     .pref_container{    flex-direction: column; }
     .row{               width: 70%; }
     .ride{              width: 70%; }
+    .pw-container{      width: 130%; }
     .line-break{
         flex-direction: column;
         width: 100%;
