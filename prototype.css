@@ -203,6 +203,15 @@ a
     flex-direction: column;
     width: 45%;
 }
+.pref-accomm
+{
+    width: inherit;
+    align-items: flex-start;
+}
+.other-accomm
+{
+    justify-content: flex-start;
+}
 .profile_col
 {
     display: flex;
@@ -210,6 +219,18 @@ a
     width: 45%;
 }
 
+#delay1
+{
+    background-color: orangered;
+    width: fit-content;
+    font-size: 2ch;
+}
+#ride1-stops
+{
+    background-color:yellow;
+    width: fit-content;
+    font-size: 2ch;
+}
 .line-break
 {
     display: flex;
@@ -242,12 +263,12 @@ a
     padding-left: 0px;
     text-decoration-line: underline;
 }
+
 .pw-container
 {
     width: 50%;
     align-items: center;
 }
-
 @media screen and (max-width: 500px)
 {
     .body_container{    flex-direction: column; }
@@ -257,6 +278,10 @@ a
     .row{               width: 70%; }
     .ride{              width: 70%; }
     .pw-container{      width: 130%; }
+    .pref-accomm{
+        flex-direction: column;
+        width: 170%;
+    }
     .line-break{
         flex-direction: column;
         width: 100%;
